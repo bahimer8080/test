@@ -1,0 +1,52 @@
+2. Si haces un juego de ajedrez, ¿cuál es la estructura de datos (o Modelo, entidad, relación) que utilizarías?
+
+R. No entiendo muy bien la pregunta pero explicare lo que entiendo que quieren que explique.
+Por logica realizaria dos modelos de clases uno seria el tablero donde una de las propiedades seria
+una matiriz con las posiciones del tablero de ajedrez. otra donde instanciaria las piezas del ajedrez
+(Peones,Caballo, etc) como propiedades usaria tipo de pieza, posicion en X y Y y un estado para controlar
+si sigue en juego o no. tendria metodos de movimiento segun el tipo de pieza. se podria obtimizar
+pero de priera mano asi lo estructuraria.
+
+3. ¿Cuál ha sido tu mayor logro en un proyecto? ¿qué hiciste y de qué manera?
+
+R. Digamos que el mayor logro fue trabajar para una compañia de silicon valley llamada skylab.
+
+4. ¿Cuál es el proyecto de cual estas más orgulloso y porque?
+
+R. Un proyecto propio que realice hace 5 años con un antiguo amigo era para crear memes con diferentes plantillas y exportaba a png
+tuve problemas con esa persona y el tenia la propiedad del dominio y nunca volvi a saber de eso.
+
+5. Menciona 4 proyectos que hayas trabajado y ¿cuál fue tu colaboración?
+
+R. Skylab : creacion de componentes para la interfaz grafica de la app
+
+Dshopid : Diferentes roles y tareas. Desde modificaciones en el sistema de orquestacion en docker,
+procesos en el backen en nodejs. web Scrapping entre otras tareas.
+
+syntegrar.ti : manejo del crm netsuite de oracle, y modulos realizados en java.
+
+Riideit : Un sistema de delivery que aun esta en construccion. Realice toda la plataforma de comunicacion con sockets y el posicionamiento de los drivers en
+el mapa usando google maps.
+
+6. Si tuvieras que definir una estructura de carpetas para desarrollar un framewok orientado al backend ¿Cómo lo organizarías?
+
+R. Me basaria en los estandares de frameworks mvc como laravel, adonisjs o django.
+
+8. ¿Qué lógica usarías para crear el juego de la vieja?
+
+R. mediante un paradigma orientado a objetos. crearia dos clases, la primera seria el tablero
+definiria la propiedad en una matriz y dentro de cada posicion de la matriz tendria un tipo d edato objeto para almacenar el estado
+y el usuario q lo a marcado en caso de.
+
+en una segunda clase crearia los usuarios. crearia una funcion para elegir la posicion aelegir y evaluar si esta disponible o no
+en caso de q no, no pasara nada en caso q si marcaria como ocupado ese campo en la instancia del tablero y realizaria un algoritmo q recorra las posiciones
+limitrofes a el y si alguna concide con su usuario evaluar los aledaños ael segun la logica en linea d ela vieja
+
+9. ¿Qué lógica usarías para crear el  juego buscaminas?
+
+R. crearia una classe para el tablero. donde una propiedad seria una matriz donde cata posicion de ella seria un objeto
+que tendra el tipo de objeto que posee , si esta vacio o no.
+
+otra clase para definir el tipo d objeto q estara dentro del tablero.
+
+y dentro d ela clase tablero definir los metodos para la logica en caso de selccionar una casilla y evaluar el tipo d eobjeto alamcenado en ella
